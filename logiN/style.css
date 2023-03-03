@@ -1,0 +1,53 @@
+body{
+    background: url(images/wallpaper.webp);
+    font-family: Arial, Roboto;
+  }
+  
+  .formDiv img{
+    width:100px;
+    margin-top: -50px;
+    border-radius: 100%;
+  }
+  
+  .formDiv{
+    height: 250px;
+    width: 200px;
+    margin: 100px auto;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    box-shadow: 0 0 30px #444;
+  }
+  input[type='text'],
+  input[type='password']{
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    height:30px;
+    background: transparent;
+    color: #fff;
+    border-bottom: 3px solid teal;
+  }
+  input[type='text']:focus,
+  input[type='password']:focus{
+    border-bottom:3px solid #00aeef;
+  }
+  
+  ::placeholder{
+    color: #666;
+  }
+  input[type='submit']{
+    background-color: cyan;
+    display: block;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin: auto;
+    padding: 10px 13px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-top: 12px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+  }
